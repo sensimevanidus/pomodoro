@@ -7,3 +7,8 @@ A colleague of mine ([@zehreken](https://github.com/zehreken)) had created a [ve
 ## 3rd Party Libraries
 
 * [boltdb](https://github.com/boltdb/bolt) - An embedded key/value database for Go. I use this one to store session logs.
+
+## Usage Examples
+
+* `pomodoro <numberOfMinutes>`: Starting a new timer (e.g. The command `pomodoro 15` starts a new timer that will alert back in 15 minutes).
+* `pomodoro -l`: Dumps the session logs.
